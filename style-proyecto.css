@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: darkgray;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo-alura{
+    padding: 20px;
+    margin-top: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+
+}
+.input-text{
+    margin-top: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid;
+ 
+}
+
+.logo{
+    float: left;
+    vertical-align: text-bottom;
+    margin-right: 5px;
+}
+
+.minusculas{
+    background: url(img/alerta.png ) (width="3%");
+    vertical-align: auto;
+    font-size: 15px;
+    margin:15px;
+
+}
+
+.input-text-area{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 2px solid;
+}
+
+button{
+    display: inline;
+    width: 25%;
+    font-size: 17px;
+    font-weight: bold;
+    color: greenyellow;
+    background: blue;
+    border: none;
+    border-radius: 8px;
+    transition: 1s all;
+    cursor: pointer;
+    margin:10px;
+    
+}
+
+button:hover{
+    background: darkblue;
+    transform: scale(1.2);
+}
+
+
+footer{
+    text-align: center;
+    background: blue;
+
+}
+
+.copyright{
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+
+

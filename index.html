@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <title>Encriptador y Desencriptador</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style-proyecto.css">
+    </head>
+        <body>
+            <header>
+               <img class="logo-alura" src="img/Frame 6.png" width="8%" alt="Frame6">  
+            </header>
+            <main>
+            <section>
+                <textarea type="text" class="input-text" cols="40" rows="4" placeholder="Ingrese el texto aqui" autofocus></textarea>
+            <div>
+                <img class="logo" src="img/alerta.png" width="3%">
+                <h6 class="minusculas">solo letras minusculas y sin acento</h6>
+            </div>
+            <div>
+                <button  type="button" onclick="btnencriptar()">Encriptar</button>
+                <button  type="button" onclick="btndesencriptar()">Desencriptar</button>
+            </div>   
+        </section>
+        <section>
+                <textarea class="input-text-area" cols="15" rows="10" autofocus id="myInput"></textarea>
+                <button onclick="miFuncion()">Copiar</button>
+        </section>        
+            </main>
+            <footer>
+                <img src="img/robot.jpg" width="20%">
+                <p class="copyright">&copy copyright Encriptador - Daniel Azofeifa Chaves- 2022</p>
+            </footer>
+        </body>
+    <script src="script.js"></script>
+</html>
